@@ -34,7 +34,7 @@
 #define GPRS_UART_MINOR        0            /* 次设备号 */
 #define GPRS_UART_FIFO_SIZE    16           /* 串口FIFO的大小 */
 #define RXSTAT_DUMMY_READ    (0x10000000)
-#define MAP_SIZE             (0x100)        /* 要映射的串口IO内存区大小 */
+#define MAP_SIZE             (0x200)        /* 要映射的串口IO内存区大小 */
 
 /* 串口发送中断号 */
 #define TX_IRQ(port) ((port)->irq + 1)

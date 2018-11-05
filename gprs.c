@@ -28,7 +28,8 @@
 
 
 #define DEV_NAME            "gprs_uart"     /* 设备名 */
-/* 这里将串口的主设备号设为0,则串口设备编号由内核动态分配;你也可指定串口的设备编号 */
+
+
 #define GPRS_UART_MAJOR        0            /* 主设备号 */
 #define GPRS_UART_MINOR        0            /* 次设备号 */
 #define GPRS_UART_FIFO_SIZE    16           /* 串口FIFO的大小 */
